@@ -38,9 +38,6 @@ ArrayList<String> inGame = new ArrayList<String>();
 	
 	boolean gameStarted = false;
 	
-	//int Roundtime;
-	//int roundTime;
-	
 	float roundTime;
 	
 	float timeMultiplier = 10;
@@ -51,26 +48,19 @@ ArrayList<String> inGame = new ArrayList<String>();
 	
 	
 	ArrayList<String> isIt = new ArrayList<String>();
-	
-	//isIt.
+
 	
 	String compasBoi = "BlankExample123459";
 	
-	//Location nearestOtherPlayer;
-	
-	Location nearestOtherPlayer;//Commentedout the rone down there bro the one donw there bro
+	Location nearestOtherPlayer;
 	
 	int currentRound;
-	
 	
 	String outPlayer;
 	
 	ArrayList<String> isOut = new ArrayList<String>();
 	
 	ArrayList<String> allJoinedGame = new ArrayList<String>();
-	
-	//public void start.
-
 	
 	@Override
 	public void onEnable() {
